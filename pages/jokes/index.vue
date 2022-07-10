@@ -50,7 +50,6 @@ export default {
   },
   methods: {
     async searchText(text) {
-      console.log("text");
       const config = {
         headers: {
           Accept: "application/json",
